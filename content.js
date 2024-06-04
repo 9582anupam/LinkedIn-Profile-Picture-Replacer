@@ -7,7 +7,7 @@ let pfps;
 // function that repalace profile picture by matching class name
 function replace() {
     pfps = document.querySelectorAll(
-        ".ivm-image-view-model__circle-img, .ivm-image-view-model__square-img, .EntityPhoto-circle-2, .EntityPhoto-square-2"
+        ".ivm-image-view-model__circle-img, .ivm-image-view-model__square-img, .EntityPhoto-circle-2, .EntityPhoto-square-2, .EntityPhoto-circle-3"
     );
     for (let i = profileCtr; i < pfps.length; i++) {
         const img = pfps[i];
